@@ -11,6 +11,9 @@ Content-Type: application/json
 POST http://localhost:3000/api/v1/tasks/ HTTP/1.1
 Content-Type: application/json
 
+{
+    "title": "Brush your teeth part 6"
+}
 ###
 
 PATCH   http://localhost:3000/api/v1/tasks/dawdikjaaw HTTP/1.1
